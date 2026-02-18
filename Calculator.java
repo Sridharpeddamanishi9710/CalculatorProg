@@ -6,9 +6,8 @@ class Calculator
     int n2 = Integer.parseInt(args[1]);
     System.out.println("Addition is:"+(n1+n2));
     System.out.println("Subtraction is:"+(n1-n2));
-    System.out.println("Multiplicaton is:"+(n1*n2));
+    System.out.println("Multiplication is:"+(n1*n2));
     System.out.println("Division is:"+(n1/n2));
     System.out.println("Changes updated");
   }
 }
-"
