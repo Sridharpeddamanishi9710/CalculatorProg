@@ -17,12 +17,12 @@ pipeline{
         }
       }
       stage('test'){
-        teps{
+        steps{
           sh 'java Calculator 40 -10'
         }
       }
       stage('Deploy'){
-        teps{
+        steps{
           echo 'Deployment completed'
         }
       }
